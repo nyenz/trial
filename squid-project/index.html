@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Squid Viewer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="ui-overlay">
+        <div id="part-panel">
+            <div id="part-panel-header">
+                <span>Squid Parts</span>
+                <div class="header-btns">
+                    <button id="pause-btn" title="Pause/Resume animation">Pause</button>
+                    <button id="swim-btn" title="Toggle swim mode">Swim Up</button>
+                    <button id="isolate-btn" title="Isolate selected part" disabled>Isolate</button>
+                </div>
+            </div>
+            <div id="part-list"></div>
+        </div>
+    </div>
+
+    <script id="mesh-data" type="application/json" src="data/mesh-data.json"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
