@@ -1,16 +1,15 @@
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+```
+# Binary/compiled assets
+*.bin
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
 # Dependencies
 node_modules/
@@ -19,42 +18,32 @@ venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
-
-# Build artifacts
 dist/
 build/
 target/
+.gradle/
 
-# OS generated files
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
 .DS_Store
 Thumbs.db
+.env
+.env.local
+*.env.*
 
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.egg-info/
+# Logs
+*.log
 
-# JavaScript/Node specific
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Java specific
-*.class
-*.jar
-*.war
-*.ear
-hs_err_pid*
-
-# C/C++ specific
-*.o
-*.a
-*.obj
-*.out
-*.dll
-*.so
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -75,11 +64,8 @@ hs_err_pid*
 *.Z
 *.lz
 *.lzo
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Original rules preserved
-*.log
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
